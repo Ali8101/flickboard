@@ -78,6 +78,7 @@ val AR_MESSAGEASE_MAIN_LAYER = Layer(
                     Direction.TOP to Action.Text("ث"),
                     Direction.RIGHT to Action.Text("أ"),
                     Direction.BOTTOM_RIGHT to Action.Text("ئ"),
+                    Direction.LEFT to Action.Text("ء"),
                     Direction.TOP_LEFT to Action.Text("ظ"),
                     Direction.TOP_RIGHT to Action.Text("غ"),
 
@@ -86,7 +87,7 @@ val AR_MESSAGEASE_MAIN_LAYER = Layer(
             KeyM(
                 actions = mapOf(
                     Direction.CENTER to Action.Text("د"),
-                    Direction.TOP_LEFT to Action.Text("ذ")
+                    Direction.LEFT to Action.Text("ذ")
                 )
             ),
         ),
